@@ -8,7 +8,6 @@
 		private $descricao;
 		private $preco;
 		private $quantidade;
-		private $fornecedor;
 
 		//Métodos getters
 
@@ -28,10 +27,6 @@
 			return $this->quantidade;
 		}
 
-		public function getFornecedor(){
-			return $this->fornecedor;
-		}
-
 		//Métodos setters
 
 		public function setCodigo($codigo){
@@ -48,10 +43,6 @@
 
 		public function setQuantidade($quantidade){
 			$this->quantidade = $quantidade;
-		}
-
-		public function setFornecedor($fornecedor){
-			$this->fornecedor = $fornecedor;
 		}
 
 		//Métodos workers	
